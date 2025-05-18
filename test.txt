@@ -1,0 +1,2082 @@
+GNU Make 4.3
+Built for x86_64-pc-linux-gnu
+Copyright (C) 1988-2020 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Reading makefiles...
+Reading makefile 'Makefile'...
+Reading makefile '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd' (search path) (no ~ expansion)...
+Reading makefile '/home/vali/xnu-funny/xnu/makedefs/MakeInc.def' (search path) (no ~ expansion)...
+Reading makefile '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule' (search path) (no ~ expansion)...
+Reading makefile '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir' (search path) (no ~ expansion)...
+Updating makefiles....
+ Considering target file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir'.
+  Looking for an implicit rule for '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir'.
+  Trying pattern rule with stem 'MakeInc.dir'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.o'.
+  Trying pattern rule with stem 'MakeInc.dir'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.c'.
+  Trying pattern rule with stem 'MakeInc.dir'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.cc'.
+  Trying pattern rule with stem 'MakeInc.dir'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.C'.
+  Trying pattern rule with stem 'MakeInc.dir'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.cpp'.
+  Trying pattern rule with stem 'MakeInc.dir'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.p'.
+  Trying pattern rule with stem 'MakeInc.dir'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.f'.
+  Trying pattern rule with stem 'MakeInc.dir'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.F'.
+  Trying pattern rule with stem 'MakeInc.dir'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.m'.
+  Trying pattern rule with stem 'MakeInc.dir'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.r'.
+  Trying pattern rule with stem 'MakeInc.dir'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.s'.
+  Trying pattern rule with stem 'MakeInc.dir'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.S'.
+  Trying pattern rule with stem 'MakeInc.dir'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.mod'.
+  Trying pattern rule with stem 'MakeInc.dir'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.sh'.
+  Trying pattern rule with stem 'MakeInc.dir'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir,v'.
+  Trying pattern rule with stem 'MakeInc.dir'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir,v'.
+  Trying pattern rule with stem 'MakeInc.dir'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir'.
+  Trying pattern rule with stem 'MakeInc.dir'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.dir'.
+  Trying pattern rule with stem 'MakeInc.dir'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.dir'.
+  Trying pattern rule with stem 'MakeInc.dir'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.o'.
+  Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.o'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem 'MakeInc.dir'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.c'.
+   Trying pattern rule with stem 'MakeInc.dir'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.cc'.
+   Trying pattern rule with stem 'MakeInc.dir'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.C'.
+   Trying pattern rule with stem 'MakeInc.dir'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.cpp'.
+   Trying pattern rule with stem 'MakeInc.dir'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.p'.
+   Trying pattern rule with stem 'MakeInc.dir'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.f'.
+   Trying pattern rule with stem 'MakeInc.dir'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.F'.
+   Trying pattern rule with stem 'MakeInc.dir'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.m'.
+   Trying pattern rule with stem 'MakeInc.dir'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.r'.
+   Trying pattern rule with stem 'MakeInc.dir'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.s'.
+   Trying pattern rule with stem 'MakeInc.dir'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.S'.
+   Trying pattern rule with stem 'MakeInc.dir'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.mod'.
+   Trying pattern rule with stem 'MakeInc.dir.o'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.o,v'.
+   Trying pattern rule with stem 'MakeInc.dir.o'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.o,v'.
+   Trying pattern rule with stem 'MakeInc.dir.o'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.o'.
+   Trying pattern rule with stem 'MakeInc.dir.o'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.dir.o'.
+   Trying pattern rule with stem 'MakeInc.dir.o'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.dir.o'.
+   Trying pattern rule with stem 'MakeInc.dir'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.c'.
+   Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.c'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'MakeInc.dir'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.y'.
+    Trying pattern rule with stem 'MakeInc.dir'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.l'.
+    Trying pattern rule with stem 'MakeInc.dir'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.w'.
+    Trying pattern rule with stem 'MakeInc.dir'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.w'.
+    Trying pattern rule with stem 'MakeInc.dir.c'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.c,v'.
+    Trying pattern rule with stem 'MakeInc.dir.c'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.c,v'.
+    Trying pattern rule with stem 'MakeInc.dir.c'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.c'.
+    Trying pattern rule with stem 'MakeInc.dir.c'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.dir.c'.
+    Trying pattern rule with stem 'MakeInc.dir.c'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.dir.c'.
+    Trying pattern rule with stem 'MakeInc.dir'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.y'.
+    Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.y'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'MakeInc.dir.y'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.y,v'.
+     Trying pattern rule with stem 'MakeInc.dir.y'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.y,v'.
+     Trying pattern rule with stem 'MakeInc.dir.y'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.y'.
+     Trying pattern rule with stem 'MakeInc.dir.y'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.dir.y'.
+     Trying pattern rule with stem 'MakeInc.dir.y'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.dir.y'.
+    Trying pattern rule with stem 'MakeInc.dir'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.l'.
+    Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.l'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'MakeInc.dir.l'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.l,v'.
+     Trying pattern rule with stem 'MakeInc.dir.l'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.l,v'.
+     Trying pattern rule with stem 'MakeInc.dir.l'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.l'.
+     Trying pattern rule with stem 'MakeInc.dir.l'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.dir.l'.
+     Trying pattern rule with stem 'MakeInc.dir.l'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.dir.l'.
+    Trying pattern rule with stem 'MakeInc.dir'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.w'.
+    Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.w'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'MakeInc.dir.w'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.w,v'.
+     Trying pattern rule with stem 'MakeInc.dir.w'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.w,v'.
+     Trying pattern rule with stem 'MakeInc.dir.w'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.w'.
+     Trying pattern rule with stem 'MakeInc.dir.w'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.dir.w'.
+     Trying pattern rule with stem 'MakeInc.dir.w'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.dir.w'.
+    Trying pattern rule with stem 'MakeInc.dir'.
+    Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.w'.
+   Trying pattern rule with stem 'MakeInc.dir'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.cc'.
+   Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.cc'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'MakeInc.dir.cc'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.cc,v'.
+    Trying pattern rule with stem 'MakeInc.dir.cc'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.cc,v'.
+    Trying pattern rule with stem 'MakeInc.dir.cc'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.cc'.
+    Trying pattern rule with stem 'MakeInc.dir.cc'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.dir.cc'.
+    Trying pattern rule with stem 'MakeInc.dir.cc'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.dir.cc'.
+   Trying pattern rule with stem 'MakeInc.dir'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.C'.
+   Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.C'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'MakeInc.dir.C'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.C,v'.
+    Trying pattern rule with stem 'MakeInc.dir.C'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.C,v'.
+    Trying pattern rule with stem 'MakeInc.dir.C'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.C'.
+    Trying pattern rule with stem 'MakeInc.dir.C'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.dir.C'.
+    Trying pattern rule with stem 'MakeInc.dir.C'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.dir.C'.
+   Trying pattern rule with stem 'MakeInc.dir'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.cpp'.
+   Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.cpp'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'MakeInc.dir.cpp'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.cpp,v'.
+    Trying pattern rule with stem 'MakeInc.dir.cpp'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.cpp,v'.
+    Trying pattern rule with stem 'MakeInc.dir.cpp'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.cpp'.
+    Trying pattern rule with stem 'MakeInc.dir.cpp'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.dir.cpp'.
+    Trying pattern rule with stem 'MakeInc.dir.cpp'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.dir.cpp'.
+   Trying pattern rule with stem 'MakeInc.dir'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.p'.
+   Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.p'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'MakeInc.dir'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.web'.
+    Trying pattern rule with stem 'MakeInc.dir.p'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.p,v'.
+    Trying pattern rule with stem 'MakeInc.dir.p'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.p,v'.
+    Trying pattern rule with stem 'MakeInc.dir.p'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.p'.
+    Trying pattern rule with stem 'MakeInc.dir.p'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.dir.p'.
+    Trying pattern rule with stem 'MakeInc.dir.p'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.dir.p'.
+    Trying pattern rule with stem 'MakeInc.dir'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.web'.
+    Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.web'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'MakeInc.dir.web'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.web,v'.
+     Trying pattern rule with stem 'MakeInc.dir.web'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.web,v'.
+     Trying pattern rule with stem 'MakeInc.dir.web'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.web'.
+     Trying pattern rule with stem 'MakeInc.dir.web'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.dir.web'.
+     Trying pattern rule with stem 'MakeInc.dir.web'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.dir.web'.
+   Trying pattern rule with stem 'MakeInc.dir'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.f'.
+   Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.f'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'MakeInc.dir'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.F'.
+    Trying pattern rule with stem 'MakeInc.dir'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.r'.
+    Trying pattern rule with stem 'MakeInc.dir.f'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.f,v'.
+    Trying pattern rule with stem 'MakeInc.dir.f'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.f,v'.
+    Trying pattern rule with stem 'MakeInc.dir.f'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.f'.
+    Trying pattern rule with stem 'MakeInc.dir.f'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.dir.f'.
+    Trying pattern rule with stem 'MakeInc.dir.f'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.dir.f'.
+    Trying pattern rule with stem 'MakeInc.dir'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.F'.
+    Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.F'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'MakeInc.dir.F'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.F,v'.
+     Trying pattern rule with stem 'MakeInc.dir.F'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.F,v'.
+     Trying pattern rule with stem 'MakeInc.dir.F'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.F'.
+     Trying pattern rule with stem 'MakeInc.dir.F'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.dir.F'.
+     Trying pattern rule with stem 'MakeInc.dir.F'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.dir.F'.
+    Trying pattern rule with stem 'MakeInc.dir'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.r'.
+    Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.r'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'MakeInc.dir'.
+     Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.l'.
+     Trying pattern rule with stem 'MakeInc.dir.r'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.r,v'.
+     Trying pattern rule with stem 'MakeInc.dir.r'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.r,v'.
+     Trying pattern rule with stem 'MakeInc.dir.r'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.r'.
+     Trying pattern rule with stem 'MakeInc.dir.r'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.dir.r'.
+     Trying pattern rule with stem 'MakeInc.dir.r'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.dir.r'.
+   Trying pattern rule with stem 'MakeInc.dir'.
+   Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.F'.
+   Trying pattern rule with stem 'MakeInc.dir'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.m'.
+   Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.m'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'MakeInc.dir'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.ym'.
+    Trying pattern rule with stem 'MakeInc.dir.m'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.m,v'.
+    Trying pattern rule with stem 'MakeInc.dir.m'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.m,v'.
+    Trying pattern rule with stem 'MakeInc.dir.m'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.m'.
+    Trying pattern rule with stem 'MakeInc.dir.m'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.dir.m'.
+    Trying pattern rule with stem 'MakeInc.dir.m'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.dir.m'.
+    Trying pattern rule with stem 'MakeInc.dir'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.ym'.
+    Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.ym'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'MakeInc.dir.ym'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.ym,v'.
+     Trying pattern rule with stem 'MakeInc.dir.ym'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.ym,v'.
+     Trying pattern rule with stem 'MakeInc.dir.ym'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.ym'.
+     Trying pattern rule with stem 'MakeInc.dir.ym'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.dir.ym'.
+     Trying pattern rule with stem 'MakeInc.dir.ym'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.dir.ym'.
+   Trying pattern rule with stem 'MakeInc.dir'.
+   Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.r'.
+   Trying pattern rule with stem 'MakeInc.dir'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.s'.
+   Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.s'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'MakeInc.dir'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.S'.
+    Trying pattern rule with stem 'MakeInc.dir.s'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.s,v'.
+    Trying pattern rule with stem 'MakeInc.dir.s'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.s,v'.
+    Trying pattern rule with stem 'MakeInc.dir.s'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.s'.
+    Trying pattern rule with stem 'MakeInc.dir.s'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.dir.s'.
+    Trying pattern rule with stem 'MakeInc.dir.s'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.dir.s'.
+    Trying pattern rule with stem 'MakeInc.dir'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.S'.
+    Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.S'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'MakeInc.dir.S'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.S,v'.
+     Trying pattern rule with stem 'MakeInc.dir.S'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.S,v'.
+     Trying pattern rule with stem 'MakeInc.dir.S'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.S'.
+     Trying pattern rule with stem 'MakeInc.dir.S'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.dir.S'.
+     Trying pattern rule with stem 'MakeInc.dir.S'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.dir.S'.
+   Trying pattern rule with stem 'MakeInc.dir'.
+   Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.S'.
+   Trying pattern rule with stem 'MakeInc.dir'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.mod'.
+   Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.mod'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'MakeInc.dir.mod'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.mod,v'.
+    Trying pattern rule with stem 'MakeInc.dir.mod'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.mod,v'.
+    Trying pattern rule with stem 'MakeInc.dir.mod'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.mod'.
+    Trying pattern rule with stem 'MakeInc.dir.mod'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.dir.mod'.
+    Trying pattern rule with stem 'MakeInc.dir.mod'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.dir.mod'.
+  Trying pattern rule with stem 'MakeInc.dir'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.c'.
+  Trying pattern rule with stem 'MakeInc.dir'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.cc'.
+  Trying pattern rule with stem 'MakeInc.dir'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.C'.
+  Trying pattern rule with stem 'MakeInc.dir'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.cpp'.
+  Trying pattern rule with stem 'MakeInc.dir'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.p'.
+  Trying pattern rule with stem 'MakeInc.dir'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.f'.
+  Trying pattern rule with stem 'MakeInc.dir'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.F'.
+  Trying pattern rule with stem 'MakeInc.dir'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.m'.
+  Trying pattern rule with stem 'MakeInc.dir'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.r'.
+  Trying pattern rule with stem 'MakeInc.dir'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.s'.
+  Trying pattern rule with stem 'MakeInc.dir'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.S'.
+  Trying pattern rule with stem 'MakeInc.dir'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.mod'.
+  Trying pattern rule with stem 'MakeInc.dir'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.sh'.
+  Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.sh'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem 'MakeInc.dir.sh'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir.sh,v'.
+   Trying pattern rule with stem 'MakeInc.dir.sh'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.sh,v'.
+   Trying pattern rule with stem 'MakeInc.dir.sh'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.dir.sh'.
+   Trying pattern rule with stem 'MakeInc.dir.sh'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.dir.sh'.
+   Trying pattern rule with stem 'MakeInc.dir.sh'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.dir.sh'.
+  No implicit rule found for '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir'.
+  Finished prerequisites of target file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir'.
+ No need to remake target '/home/vali/xnu-funny/xnu/makedefs/MakeInc.dir'.
+ Considering target file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule'.
+  Looking for an implicit rule for '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule'.
+  Trying pattern rule with stem 'MakeInc.rule'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.o'.
+  Trying pattern rule with stem 'MakeInc.rule'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.c'.
+  Trying pattern rule with stem 'MakeInc.rule'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.cc'.
+  Trying pattern rule with stem 'MakeInc.rule'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.C'.
+  Trying pattern rule with stem 'MakeInc.rule'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.cpp'.
+  Trying pattern rule with stem 'MakeInc.rule'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.p'.
+  Trying pattern rule with stem 'MakeInc.rule'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.f'.
+  Trying pattern rule with stem 'MakeInc.rule'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.F'.
+  Trying pattern rule with stem 'MakeInc.rule'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.m'.
+  Trying pattern rule with stem 'MakeInc.rule'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.r'.
+  Trying pattern rule with stem 'MakeInc.rule'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.s'.
+  Trying pattern rule with stem 'MakeInc.rule'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.S'.
+  Trying pattern rule with stem 'MakeInc.rule'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.mod'.
+  Trying pattern rule with stem 'MakeInc.rule'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.sh'.
+  Trying pattern rule with stem 'MakeInc.rule'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule,v'.
+  Trying pattern rule with stem 'MakeInc.rule'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule,v'.
+  Trying pattern rule with stem 'MakeInc.rule'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule'.
+  Trying pattern rule with stem 'MakeInc.rule'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.rule'.
+  Trying pattern rule with stem 'MakeInc.rule'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.rule'.
+  Trying pattern rule with stem 'MakeInc.rule'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.o'.
+  Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.o'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem 'MakeInc.rule'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.c'.
+   Trying pattern rule with stem 'MakeInc.rule'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.cc'.
+   Trying pattern rule with stem 'MakeInc.rule'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.C'.
+   Trying pattern rule with stem 'MakeInc.rule'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.cpp'.
+   Trying pattern rule with stem 'MakeInc.rule'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.p'.
+   Trying pattern rule with stem 'MakeInc.rule'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.f'.
+   Trying pattern rule with stem 'MakeInc.rule'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.F'.
+   Trying pattern rule with stem 'MakeInc.rule'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.m'.
+   Trying pattern rule with stem 'MakeInc.rule'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.r'.
+   Trying pattern rule with stem 'MakeInc.rule'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.s'.
+   Trying pattern rule with stem 'MakeInc.rule'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.S'.
+   Trying pattern rule with stem 'MakeInc.rule'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.mod'.
+   Trying pattern rule with stem 'MakeInc.rule.o'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.o,v'.
+   Trying pattern rule with stem 'MakeInc.rule.o'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.o,v'.
+   Trying pattern rule with stem 'MakeInc.rule.o'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.o'.
+   Trying pattern rule with stem 'MakeInc.rule.o'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.rule.o'.
+   Trying pattern rule with stem 'MakeInc.rule.o'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.rule.o'.
+   Trying pattern rule with stem 'MakeInc.rule'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.c'.
+   Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.c'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'MakeInc.rule'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.y'.
+    Trying pattern rule with stem 'MakeInc.rule'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.l'.
+    Trying pattern rule with stem 'MakeInc.rule'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.w'.
+    Trying pattern rule with stem 'MakeInc.rule'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.w'.
+    Trying pattern rule with stem 'MakeInc.rule.c'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.c,v'.
+    Trying pattern rule with stem 'MakeInc.rule.c'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.c,v'.
+    Trying pattern rule with stem 'MakeInc.rule.c'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.c'.
+    Trying pattern rule with stem 'MakeInc.rule.c'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.rule.c'.
+    Trying pattern rule with stem 'MakeInc.rule.c'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.rule.c'.
+    Trying pattern rule with stem 'MakeInc.rule'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.y'.
+    Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.y'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'MakeInc.rule.y'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.y,v'.
+     Trying pattern rule with stem 'MakeInc.rule.y'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.y,v'.
+     Trying pattern rule with stem 'MakeInc.rule.y'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.y'.
+     Trying pattern rule with stem 'MakeInc.rule.y'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.rule.y'.
+     Trying pattern rule with stem 'MakeInc.rule.y'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.rule.y'.
+    Trying pattern rule with stem 'MakeInc.rule'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.l'.
+    Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.l'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'MakeInc.rule.l'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.l,v'.
+     Trying pattern rule with stem 'MakeInc.rule.l'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.l,v'.
+     Trying pattern rule with stem 'MakeInc.rule.l'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.l'.
+     Trying pattern rule with stem 'MakeInc.rule.l'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.rule.l'.
+     Trying pattern rule with stem 'MakeInc.rule.l'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.rule.l'.
+    Trying pattern rule with stem 'MakeInc.rule'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.w'.
+    Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.w'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'MakeInc.rule.w'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.w,v'.
+     Trying pattern rule with stem 'MakeInc.rule.w'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.w,v'.
+     Trying pattern rule with stem 'MakeInc.rule.w'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.w'.
+     Trying pattern rule with stem 'MakeInc.rule.w'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.rule.w'.
+     Trying pattern rule with stem 'MakeInc.rule.w'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.rule.w'.
+    Trying pattern rule with stem 'MakeInc.rule'.
+    Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.w'.
+   Trying pattern rule with stem 'MakeInc.rule'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.cc'.
+   Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.cc'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'MakeInc.rule.cc'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.cc,v'.
+    Trying pattern rule with stem 'MakeInc.rule.cc'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.cc,v'.
+    Trying pattern rule with stem 'MakeInc.rule.cc'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.cc'.
+    Trying pattern rule with stem 'MakeInc.rule.cc'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.rule.cc'.
+    Trying pattern rule with stem 'MakeInc.rule.cc'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.rule.cc'.
+   Trying pattern rule with stem 'MakeInc.rule'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.C'.
+   Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.C'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'MakeInc.rule.C'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.C,v'.
+    Trying pattern rule with stem 'MakeInc.rule.C'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.C,v'.
+    Trying pattern rule with stem 'MakeInc.rule.C'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.C'.
+    Trying pattern rule with stem 'MakeInc.rule.C'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.rule.C'.
+    Trying pattern rule with stem 'MakeInc.rule.C'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.rule.C'.
+   Trying pattern rule with stem 'MakeInc.rule'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.cpp'.
+   Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.cpp'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'MakeInc.rule.cpp'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.cpp,v'.
+    Trying pattern rule with stem 'MakeInc.rule.cpp'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.cpp,v'.
+    Trying pattern rule with stem 'MakeInc.rule.cpp'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.cpp'.
+    Trying pattern rule with stem 'MakeInc.rule.cpp'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.rule.cpp'.
+    Trying pattern rule with stem 'MakeInc.rule.cpp'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.rule.cpp'.
+   Trying pattern rule with stem 'MakeInc.rule'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.p'.
+   Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.p'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'MakeInc.rule'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.web'.
+    Trying pattern rule with stem 'MakeInc.rule.p'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.p,v'.
+    Trying pattern rule with stem 'MakeInc.rule.p'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.p,v'.
+    Trying pattern rule with stem 'MakeInc.rule.p'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.p'.
+    Trying pattern rule with stem 'MakeInc.rule.p'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.rule.p'.
+    Trying pattern rule with stem 'MakeInc.rule.p'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.rule.p'.
+    Trying pattern rule with stem 'MakeInc.rule'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.web'.
+    Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.web'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'MakeInc.rule.web'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.web,v'.
+     Trying pattern rule with stem 'MakeInc.rule.web'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.web,v'.
+     Trying pattern rule with stem 'MakeInc.rule.web'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.web'.
+     Trying pattern rule with stem 'MakeInc.rule.web'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.rule.web'.
+     Trying pattern rule with stem 'MakeInc.rule.web'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.rule.web'.
+   Trying pattern rule with stem 'MakeInc.rule'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.f'.
+   Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.f'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'MakeInc.rule'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.F'.
+    Trying pattern rule with stem 'MakeInc.rule'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.r'.
+    Trying pattern rule with stem 'MakeInc.rule.f'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.f,v'.
+    Trying pattern rule with stem 'MakeInc.rule.f'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.f,v'.
+    Trying pattern rule with stem 'MakeInc.rule.f'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.f'.
+    Trying pattern rule with stem 'MakeInc.rule.f'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.rule.f'.
+    Trying pattern rule with stem 'MakeInc.rule.f'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.rule.f'.
+    Trying pattern rule with stem 'MakeInc.rule'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.F'.
+    Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.F'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'MakeInc.rule.F'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.F,v'.
+     Trying pattern rule with stem 'MakeInc.rule.F'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.F,v'.
+     Trying pattern rule with stem 'MakeInc.rule.F'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.F'.
+     Trying pattern rule with stem 'MakeInc.rule.F'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.rule.F'.
+     Trying pattern rule with stem 'MakeInc.rule.F'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.rule.F'.
+    Trying pattern rule with stem 'MakeInc.rule'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.r'.
+    Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.r'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'MakeInc.rule'.
+     Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.l'.
+     Trying pattern rule with stem 'MakeInc.rule.r'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.r,v'.
+     Trying pattern rule with stem 'MakeInc.rule.r'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.r,v'.
+     Trying pattern rule with stem 'MakeInc.rule.r'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.r'.
+     Trying pattern rule with stem 'MakeInc.rule.r'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.rule.r'.
+     Trying pattern rule with stem 'MakeInc.rule.r'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.rule.r'.
+   Trying pattern rule with stem 'MakeInc.rule'.
+   Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.F'.
+   Trying pattern rule with stem 'MakeInc.rule'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.m'.
+   Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.m'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'MakeInc.rule'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.ym'.
+    Trying pattern rule with stem 'MakeInc.rule.m'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.m,v'.
+    Trying pattern rule with stem 'MakeInc.rule.m'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.m,v'.
+    Trying pattern rule with stem 'MakeInc.rule.m'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.m'.
+    Trying pattern rule with stem 'MakeInc.rule.m'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.rule.m'.
+    Trying pattern rule with stem 'MakeInc.rule.m'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.rule.m'.
+    Trying pattern rule with stem 'MakeInc.rule'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.ym'.
+    Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.ym'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'MakeInc.rule.ym'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.ym,v'.
+     Trying pattern rule with stem 'MakeInc.rule.ym'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.ym,v'.
+     Trying pattern rule with stem 'MakeInc.rule.ym'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.ym'.
+     Trying pattern rule with stem 'MakeInc.rule.ym'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.rule.ym'.
+     Trying pattern rule with stem 'MakeInc.rule.ym'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.rule.ym'.
+   Trying pattern rule with stem 'MakeInc.rule'.
+   Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.r'.
+   Trying pattern rule with stem 'MakeInc.rule'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.s'.
+   Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.s'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'MakeInc.rule'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.S'.
+    Trying pattern rule with stem 'MakeInc.rule.s'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.s,v'.
+    Trying pattern rule with stem 'MakeInc.rule.s'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.s,v'.
+    Trying pattern rule with stem 'MakeInc.rule.s'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.s'.
+    Trying pattern rule with stem 'MakeInc.rule.s'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.rule.s'.
+    Trying pattern rule with stem 'MakeInc.rule.s'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.rule.s'.
+    Trying pattern rule with stem 'MakeInc.rule'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.S'.
+    Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.S'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'MakeInc.rule.S'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.S,v'.
+     Trying pattern rule with stem 'MakeInc.rule.S'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.S,v'.
+     Trying pattern rule with stem 'MakeInc.rule.S'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.S'.
+     Trying pattern rule with stem 'MakeInc.rule.S'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.rule.S'.
+     Trying pattern rule with stem 'MakeInc.rule.S'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.rule.S'.
+   Trying pattern rule with stem 'MakeInc.rule'.
+   Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.S'.
+   Trying pattern rule with stem 'MakeInc.rule'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.mod'.
+   Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.mod'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'MakeInc.rule.mod'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.mod,v'.
+    Trying pattern rule with stem 'MakeInc.rule.mod'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.mod,v'.
+    Trying pattern rule with stem 'MakeInc.rule.mod'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.mod'.
+    Trying pattern rule with stem 'MakeInc.rule.mod'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.rule.mod'.
+    Trying pattern rule with stem 'MakeInc.rule.mod'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.rule.mod'.
+  Trying pattern rule with stem 'MakeInc.rule'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.c'.
+  Trying pattern rule with stem 'MakeInc.rule'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.cc'.
+  Trying pattern rule with stem 'MakeInc.rule'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.C'.
+  Trying pattern rule with stem 'MakeInc.rule'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.cpp'.
+  Trying pattern rule with stem 'MakeInc.rule'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.p'.
+  Trying pattern rule with stem 'MakeInc.rule'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.f'.
+  Trying pattern rule with stem 'MakeInc.rule'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.F'.
+  Trying pattern rule with stem 'MakeInc.rule'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.m'.
+  Trying pattern rule with stem 'MakeInc.rule'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.r'.
+  Trying pattern rule with stem 'MakeInc.rule'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.s'.
+  Trying pattern rule with stem 'MakeInc.rule'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.S'.
+  Trying pattern rule with stem 'MakeInc.rule'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.mod'.
+  Trying pattern rule with stem 'MakeInc.rule'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.sh'.
+  Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.sh'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem 'MakeInc.rule.sh'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule.sh,v'.
+   Trying pattern rule with stem 'MakeInc.rule.sh'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.sh,v'.
+   Trying pattern rule with stem 'MakeInc.rule.sh'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.rule.sh'.
+   Trying pattern rule with stem 'MakeInc.rule.sh'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.rule.sh'.
+   Trying pattern rule with stem 'MakeInc.rule.sh'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.rule.sh'.
+  No implicit rule found for '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule'.
+  Finished prerequisites of target file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule'.
+ No need to remake target '/home/vali/xnu-funny/xnu/makedefs/MakeInc.rule'.
+ Considering target file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.def'.
+  Looking for an implicit rule for '/home/vali/xnu-funny/xnu/makedefs/MakeInc.def'.
+  Trying pattern rule with stem 'MakeInc.def'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.def,v'.
+  Trying pattern rule with stem 'MakeInc.def'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.def,v'.
+  Trying pattern rule with stem 'MakeInc.def'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.def'.
+  Trying pattern rule with stem 'MakeInc.def'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.def'.
+  Trying pattern rule with stem 'MakeInc.def'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.def'.
+  No implicit rule found for '/home/vali/xnu-funny/xnu/makedefs/MakeInc.def'.
+  Finished prerequisites of target file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.def'.
+ No need to remake target '/home/vali/xnu-funny/xnu/makedefs/MakeInc.def'.
+ Considering target file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd'.
+  Looking for an implicit rule for '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd'.
+  Trying pattern rule with stem 'MakeInc.cmd'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.o'.
+  Trying pattern rule with stem 'MakeInc.cmd'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.c'.
+  Trying pattern rule with stem 'MakeInc.cmd'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.cc'.
+  Trying pattern rule with stem 'MakeInc.cmd'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.C'.
+  Trying pattern rule with stem 'MakeInc.cmd'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.cpp'.
+  Trying pattern rule with stem 'MakeInc.cmd'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.p'.
+  Trying pattern rule with stem 'MakeInc.cmd'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.f'.
+  Trying pattern rule with stem 'MakeInc.cmd'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.F'.
+  Trying pattern rule with stem 'MakeInc.cmd'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.m'.
+  Trying pattern rule with stem 'MakeInc.cmd'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.r'.
+  Trying pattern rule with stem 'MakeInc.cmd'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.s'.
+  Trying pattern rule with stem 'MakeInc.cmd'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.S'.
+  Trying pattern rule with stem 'MakeInc.cmd'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.mod'.
+  Trying pattern rule with stem 'MakeInc.cmd'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.sh'.
+  Trying pattern rule with stem 'MakeInc.cmd'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd,v'.
+  Trying pattern rule with stem 'MakeInc.cmd'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd,v'.
+  Trying pattern rule with stem 'MakeInc.cmd'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd'.
+  Trying pattern rule with stem 'MakeInc.cmd'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.cmd'.
+  Trying pattern rule with stem 'MakeInc.cmd'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.cmd'.
+  Trying pattern rule with stem 'MakeInc.cmd'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.o'.
+  Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.o'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem 'MakeInc.cmd'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.c'.
+   Trying pattern rule with stem 'MakeInc.cmd'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.cc'.
+   Trying pattern rule with stem 'MakeInc.cmd'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.C'.
+   Trying pattern rule with stem 'MakeInc.cmd'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.cpp'.
+   Trying pattern rule with stem 'MakeInc.cmd'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.p'.
+   Trying pattern rule with stem 'MakeInc.cmd'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.f'.
+   Trying pattern rule with stem 'MakeInc.cmd'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.F'.
+   Trying pattern rule with stem 'MakeInc.cmd'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.m'.
+   Trying pattern rule with stem 'MakeInc.cmd'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.r'.
+   Trying pattern rule with stem 'MakeInc.cmd'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.s'.
+   Trying pattern rule with stem 'MakeInc.cmd'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.S'.
+   Trying pattern rule with stem 'MakeInc.cmd'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.mod'.
+   Trying pattern rule with stem 'MakeInc.cmd.o'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.o,v'.
+   Trying pattern rule with stem 'MakeInc.cmd.o'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.o,v'.
+   Trying pattern rule with stem 'MakeInc.cmd.o'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.o'.
+   Trying pattern rule with stem 'MakeInc.cmd.o'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.cmd.o'.
+   Trying pattern rule with stem 'MakeInc.cmd.o'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.cmd.o'.
+   Trying pattern rule with stem 'MakeInc.cmd'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.c'.
+   Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.c'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'MakeInc.cmd'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.y'.
+    Trying pattern rule with stem 'MakeInc.cmd'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.l'.
+    Trying pattern rule with stem 'MakeInc.cmd'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.w'.
+    Trying pattern rule with stem 'MakeInc.cmd'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.w'.
+    Trying pattern rule with stem 'MakeInc.cmd.c'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.c,v'.
+    Trying pattern rule with stem 'MakeInc.cmd.c'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.c,v'.
+    Trying pattern rule with stem 'MakeInc.cmd.c'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.c'.
+    Trying pattern rule with stem 'MakeInc.cmd.c'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.cmd.c'.
+    Trying pattern rule with stem 'MakeInc.cmd.c'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.cmd.c'.
+    Trying pattern rule with stem 'MakeInc.cmd'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.y'.
+    Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.y'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'MakeInc.cmd.y'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.y,v'.
+     Trying pattern rule with stem 'MakeInc.cmd.y'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.y,v'.
+     Trying pattern rule with stem 'MakeInc.cmd.y'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.y'.
+     Trying pattern rule with stem 'MakeInc.cmd.y'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.cmd.y'.
+     Trying pattern rule with stem 'MakeInc.cmd.y'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.cmd.y'.
+    Trying pattern rule with stem 'MakeInc.cmd'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.l'.
+    Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.l'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'MakeInc.cmd.l'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.l,v'.
+     Trying pattern rule with stem 'MakeInc.cmd.l'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.l,v'.
+     Trying pattern rule with stem 'MakeInc.cmd.l'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.l'.
+     Trying pattern rule with stem 'MakeInc.cmd.l'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.cmd.l'.
+     Trying pattern rule with stem 'MakeInc.cmd.l'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.cmd.l'.
+    Trying pattern rule with stem 'MakeInc.cmd'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.w'.
+    Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.w'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'MakeInc.cmd.w'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.w,v'.
+     Trying pattern rule with stem 'MakeInc.cmd.w'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.w,v'.
+     Trying pattern rule with stem 'MakeInc.cmd.w'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.w'.
+     Trying pattern rule with stem 'MakeInc.cmd.w'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.cmd.w'.
+     Trying pattern rule with stem 'MakeInc.cmd.w'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.cmd.w'.
+    Trying pattern rule with stem 'MakeInc.cmd'.
+    Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.w'.
+   Trying pattern rule with stem 'MakeInc.cmd'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.cc'.
+   Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.cc'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'MakeInc.cmd.cc'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.cc,v'.
+    Trying pattern rule with stem 'MakeInc.cmd.cc'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.cc,v'.
+    Trying pattern rule with stem 'MakeInc.cmd.cc'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.cc'.
+    Trying pattern rule with stem 'MakeInc.cmd.cc'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.cmd.cc'.
+    Trying pattern rule with stem 'MakeInc.cmd.cc'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.cmd.cc'.
+   Trying pattern rule with stem 'MakeInc.cmd'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.C'.
+   Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.C'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'MakeInc.cmd.C'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.C,v'.
+    Trying pattern rule with stem 'MakeInc.cmd.C'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.C,v'.
+    Trying pattern rule with stem 'MakeInc.cmd.C'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.C'.
+    Trying pattern rule with stem 'MakeInc.cmd.C'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.cmd.C'.
+    Trying pattern rule with stem 'MakeInc.cmd.C'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.cmd.C'.
+   Trying pattern rule with stem 'MakeInc.cmd'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.cpp'.
+   Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.cpp'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'MakeInc.cmd.cpp'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.cpp,v'.
+    Trying pattern rule with stem 'MakeInc.cmd.cpp'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.cpp,v'.
+    Trying pattern rule with stem 'MakeInc.cmd.cpp'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.cpp'.
+    Trying pattern rule with stem 'MakeInc.cmd.cpp'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.cmd.cpp'.
+    Trying pattern rule with stem 'MakeInc.cmd.cpp'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.cmd.cpp'.
+   Trying pattern rule with stem 'MakeInc.cmd'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.p'.
+   Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.p'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'MakeInc.cmd'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.web'.
+    Trying pattern rule with stem 'MakeInc.cmd.p'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.p,v'.
+    Trying pattern rule with stem 'MakeInc.cmd.p'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.p,v'.
+    Trying pattern rule with stem 'MakeInc.cmd.p'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.p'.
+    Trying pattern rule with stem 'MakeInc.cmd.p'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.cmd.p'.
+    Trying pattern rule with stem 'MakeInc.cmd.p'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.cmd.p'.
+    Trying pattern rule with stem 'MakeInc.cmd'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.web'.
+    Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.web'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'MakeInc.cmd.web'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.web,v'.
+     Trying pattern rule with stem 'MakeInc.cmd.web'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.web,v'.
+     Trying pattern rule with stem 'MakeInc.cmd.web'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.web'.
+     Trying pattern rule with stem 'MakeInc.cmd.web'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.cmd.web'.
+     Trying pattern rule with stem 'MakeInc.cmd.web'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.cmd.web'.
+   Trying pattern rule with stem 'MakeInc.cmd'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.f'.
+   Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.f'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'MakeInc.cmd'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.F'.
+    Trying pattern rule with stem 'MakeInc.cmd'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.r'.
+    Trying pattern rule with stem 'MakeInc.cmd.f'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.f,v'.
+    Trying pattern rule with stem 'MakeInc.cmd.f'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.f,v'.
+    Trying pattern rule with stem 'MakeInc.cmd.f'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.f'.
+    Trying pattern rule with stem 'MakeInc.cmd.f'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.cmd.f'.
+    Trying pattern rule with stem 'MakeInc.cmd.f'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.cmd.f'.
+    Trying pattern rule with stem 'MakeInc.cmd'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.F'.
+    Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.F'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'MakeInc.cmd.F'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.F,v'.
+     Trying pattern rule with stem 'MakeInc.cmd.F'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.F,v'.
+     Trying pattern rule with stem 'MakeInc.cmd.F'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.F'.
+     Trying pattern rule with stem 'MakeInc.cmd.F'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.cmd.F'.
+     Trying pattern rule with stem 'MakeInc.cmd.F'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.cmd.F'.
+    Trying pattern rule with stem 'MakeInc.cmd'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.r'.
+    Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.r'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'MakeInc.cmd'.
+     Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.l'.
+     Trying pattern rule with stem 'MakeInc.cmd.r'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.r,v'.
+     Trying pattern rule with stem 'MakeInc.cmd.r'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.r,v'.
+     Trying pattern rule with stem 'MakeInc.cmd.r'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.r'.
+     Trying pattern rule with stem 'MakeInc.cmd.r'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.cmd.r'.
+     Trying pattern rule with stem 'MakeInc.cmd.r'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.cmd.r'.
+   Trying pattern rule with stem 'MakeInc.cmd'.
+   Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.F'.
+   Trying pattern rule with stem 'MakeInc.cmd'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.m'.
+   Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.m'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'MakeInc.cmd'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.ym'.
+    Trying pattern rule with stem 'MakeInc.cmd.m'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.m,v'.
+    Trying pattern rule with stem 'MakeInc.cmd.m'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.m,v'.
+    Trying pattern rule with stem 'MakeInc.cmd.m'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.m'.
+    Trying pattern rule with stem 'MakeInc.cmd.m'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.cmd.m'.
+    Trying pattern rule with stem 'MakeInc.cmd.m'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.cmd.m'.
+    Trying pattern rule with stem 'MakeInc.cmd'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.ym'.
+    Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.ym'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'MakeInc.cmd.ym'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.ym,v'.
+     Trying pattern rule with stem 'MakeInc.cmd.ym'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.ym,v'.
+     Trying pattern rule with stem 'MakeInc.cmd.ym'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.ym'.
+     Trying pattern rule with stem 'MakeInc.cmd.ym'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.cmd.ym'.
+     Trying pattern rule with stem 'MakeInc.cmd.ym'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.cmd.ym'.
+   Trying pattern rule with stem 'MakeInc.cmd'.
+   Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.r'.
+   Trying pattern rule with stem 'MakeInc.cmd'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.s'.
+   Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.s'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'MakeInc.cmd'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.S'.
+    Trying pattern rule with stem 'MakeInc.cmd.s'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.s,v'.
+    Trying pattern rule with stem 'MakeInc.cmd.s'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.s,v'.
+    Trying pattern rule with stem 'MakeInc.cmd.s'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.s'.
+    Trying pattern rule with stem 'MakeInc.cmd.s'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.cmd.s'.
+    Trying pattern rule with stem 'MakeInc.cmd.s'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.cmd.s'.
+    Trying pattern rule with stem 'MakeInc.cmd'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.S'.
+    Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.S'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'MakeInc.cmd.S'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.S,v'.
+     Trying pattern rule with stem 'MakeInc.cmd.S'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.S,v'.
+     Trying pattern rule with stem 'MakeInc.cmd.S'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.S'.
+     Trying pattern rule with stem 'MakeInc.cmd.S'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.cmd.S'.
+     Trying pattern rule with stem 'MakeInc.cmd.S'.
+     Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.cmd.S'.
+   Trying pattern rule with stem 'MakeInc.cmd'.
+   Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.S'.
+   Trying pattern rule with stem 'MakeInc.cmd'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.mod'.
+   Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.mod'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'MakeInc.cmd.mod'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.mod,v'.
+    Trying pattern rule with stem 'MakeInc.cmd.mod'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.mod,v'.
+    Trying pattern rule with stem 'MakeInc.cmd.mod'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.mod'.
+    Trying pattern rule with stem 'MakeInc.cmd.mod'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.cmd.mod'.
+    Trying pattern rule with stem 'MakeInc.cmd.mod'.
+    Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.cmd.mod'.
+  Trying pattern rule with stem 'MakeInc.cmd'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.c'.
+  Trying pattern rule with stem 'MakeInc.cmd'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.cc'.
+  Trying pattern rule with stem 'MakeInc.cmd'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.C'.
+  Trying pattern rule with stem 'MakeInc.cmd'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.cpp'.
+  Trying pattern rule with stem 'MakeInc.cmd'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.p'.
+  Trying pattern rule with stem 'MakeInc.cmd'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.f'.
+  Trying pattern rule with stem 'MakeInc.cmd'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.F'.
+  Trying pattern rule with stem 'MakeInc.cmd'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.m'.
+  Trying pattern rule with stem 'MakeInc.cmd'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.r'.
+  Trying pattern rule with stem 'MakeInc.cmd'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.s'.
+  Trying pattern rule with stem 'MakeInc.cmd'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.S'.
+  Trying pattern rule with stem 'MakeInc.cmd'.
+  Rejecting impossible implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.mod'.
+  Trying pattern rule with stem 'MakeInc.cmd'.
+  Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.sh'.
+  Looking for a rule with intermediate file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.sh'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem 'MakeInc.cmd.sh'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd.sh,v'.
+   Trying pattern rule with stem 'MakeInc.cmd.sh'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.sh,v'.
+   Trying pattern rule with stem 'MakeInc.cmd.sh'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/RCS/MakeInc.cmd.sh'.
+   Trying pattern rule with stem 'MakeInc.cmd.sh'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/s.MakeInc.cmd.sh'.
+   Trying pattern rule with stem 'MakeInc.cmd.sh'.
+   Trying implicit prerequisite '/home/vali/xnu-funny/xnu/makedefs/SCCS/s.MakeInc.cmd.sh'.
+  No implicit rule found for '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd'.
+  Finished prerequisites of target file '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd'.
+ No need to remake target '/home/vali/xnu-funny/xnu/makedefs/MakeInc.cmd'.
+ Considering target file 'Makefile'.
+  Looking for an implicit rule for 'Makefile'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.o'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.c'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.cc'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.C'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.cpp'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.p'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.f'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.F'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.m'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.r'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.s'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.S'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.mod'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.sh'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile,v'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'RCS/Makefile,v'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'RCS/Makefile'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 's.Makefile'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'SCCS/s.Makefile'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.o'.
+  Looking for a rule with intermediate file 'Makefile.o'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.c'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.cc'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.C'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.cpp'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.p'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.f'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.F'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.m'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.r'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.s'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.S'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.mod'.
+   Trying pattern rule with stem 'Makefile.o'.
+   Trying implicit prerequisite 'Makefile.o,v'.
+   Trying pattern rule with stem 'Makefile.o'.
+   Trying implicit prerequisite 'RCS/Makefile.o,v'.
+   Trying pattern rule with stem 'Makefile.o'.
+   Trying implicit prerequisite 'RCS/Makefile.o'.
+   Trying pattern rule with stem 'Makefile.o'.
+   Trying implicit prerequisite 's.Makefile.o'.
+   Trying pattern rule with stem 'Makefile.o'.
+   Trying implicit prerequisite 'SCCS/s.Makefile.o'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.c'.
+   Looking for a rule with intermediate file 'Makefile.c'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.y'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.l'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.w'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.w'.
+    Trying pattern rule with stem 'Makefile.c'.
+    Trying implicit prerequisite 'Makefile.c,v'.
+    Trying pattern rule with stem 'Makefile.c'.
+    Trying implicit prerequisite 'RCS/Makefile.c,v'.
+    Trying pattern rule with stem 'Makefile.c'.
+    Trying implicit prerequisite 'RCS/Makefile.c'.
+    Trying pattern rule with stem 'Makefile.c'.
+    Trying implicit prerequisite 's.Makefile.c'.
+    Trying pattern rule with stem 'Makefile.c'.
+    Trying implicit prerequisite 'SCCS/s.Makefile.c'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.y'.
+    Looking for a rule with intermediate file 'Makefile.y'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.y'.
+     Trying implicit prerequisite 'Makefile.y,v'.
+     Trying pattern rule with stem 'Makefile.y'.
+     Trying implicit prerequisite 'RCS/Makefile.y,v'.
+     Trying pattern rule with stem 'Makefile.y'.
+     Trying implicit prerequisite 'RCS/Makefile.y'.
+     Trying pattern rule with stem 'Makefile.y'.
+     Trying implicit prerequisite 's.Makefile.y'.
+     Trying pattern rule with stem 'Makefile.y'.
+     Trying implicit prerequisite 'SCCS/s.Makefile.y'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.l'.
+    Looking for a rule with intermediate file 'Makefile.l'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.l'.
+     Trying implicit prerequisite 'Makefile.l,v'.
+     Trying pattern rule with stem 'Makefile.l'.
+     Trying implicit prerequisite 'RCS/Makefile.l,v'.
+     Trying pattern rule with stem 'Makefile.l'.
+     Trying implicit prerequisite 'RCS/Makefile.l'.
+     Trying pattern rule with stem 'Makefile.l'.
+     Trying implicit prerequisite 's.Makefile.l'.
+     Trying pattern rule with stem 'Makefile.l'.
+     Trying implicit prerequisite 'SCCS/s.Makefile.l'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.w'.
+    Looking for a rule with intermediate file 'Makefile.w'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.w'.
+     Trying implicit prerequisite 'Makefile.w,v'.
+     Trying pattern rule with stem 'Makefile.w'.
+     Trying implicit prerequisite 'RCS/Makefile.w,v'.
+     Trying pattern rule with stem 'Makefile.w'.
+     Trying implicit prerequisite 'RCS/Makefile.w'.
+     Trying pattern rule with stem 'Makefile.w'.
+     Trying implicit prerequisite 's.Makefile.w'.
+     Trying pattern rule with stem 'Makefile.w'.
+     Trying implicit prerequisite 'SCCS/s.Makefile.w'.
+    Trying pattern rule with stem 'Makefile'.
+    Rejecting impossible implicit prerequisite 'Makefile.w'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.cc'.
+   Looking for a rule with intermediate file 'Makefile.cc'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile.cc'.
+    Trying implicit prerequisite 'Makefile.cc,v'.
+    Trying pattern rule with stem 'Makefile.cc'.
+    Trying implicit prerequisite 'RCS/Makefile.cc,v'.
+    Trying pattern rule with stem 'Makefile.cc'.
+    Trying implicit prerequisite 'RCS/Makefile.cc'.
+    Trying pattern rule with stem 'Makefile.cc'.
+    Trying implicit prerequisite 's.Makefile.cc'.
+    Trying pattern rule with stem 'Makefile.cc'.
+    Trying implicit prerequisite 'SCCS/s.Makefile.cc'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.C'.
+   Looking for a rule with intermediate file 'Makefile.C'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile.C'.
+    Trying implicit prerequisite 'Makefile.C,v'.
+    Trying pattern rule with stem 'Makefile.C'.
+    Trying implicit prerequisite 'RCS/Makefile.C,v'.
+    Trying pattern rule with stem 'Makefile.C'.
+    Trying implicit prerequisite 'RCS/Makefile.C'.
+    Trying pattern rule with stem 'Makefile.C'.
+    Trying implicit prerequisite 's.Makefile.C'.
+    Trying pattern rule with stem 'Makefile.C'.
+    Trying implicit prerequisite 'SCCS/s.Makefile.C'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.cpp'.
+   Looking for a rule with intermediate file 'Makefile.cpp'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile.cpp'.
+    Trying implicit prerequisite 'Makefile.cpp,v'.
+    Trying pattern rule with stem 'Makefile.cpp'.
+    Trying implicit prerequisite 'RCS/Makefile.cpp,v'.
+    Trying pattern rule with stem 'Makefile.cpp'.
+    Trying implicit prerequisite 'RCS/Makefile.cpp'.
+    Trying pattern rule with stem 'Makefile.cpp'.
+    Trying implicit prerequisite 's.Makefile.cpp'.
+    Trying pattern rule with stem 'Makefile.cpp'.
+    Trying implicit prerequisite 'SCCS/s.Makefile.cpp'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.p'.
+   Looking for a rule with intermediate file 'Makefile.p'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.web'.
+    Trying pattern rule with stem 'Makefile.p'.
+    Trying implicit prerequisite 'Makefile.p,v'.
+    Trying pattern rule with stem 'Makefile.p'.
+    Trying implicit prerequisite 'RCS/Makefile.p,v'.
+    Trying pattern rule with stem 'Makefile.p'.
+    Trying implicit prerequisite 'RCS/Makefile.p'.
+    Trying pattern rule with stem 'Makefile.p'.
+    Trying implicit prerequisite 's.Makefile.p'.
+    Trying pattern rule with stem 'Makefile.p'.
+    Trying implicit prerequisite 'SCCS/s.Makefile.p'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.web'.
+    Looking for a rule with intermediate file 'Makefile.web'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.web'.
+     Trying implicit prerequisite 'Makefile.web,v'.
+     Trying pattern rule with stem 'Makefile.web'.
+     Trying implicit prerequisite 'RCS/Makefile.web,v'.
+     Trying pattern rule with stem 'Makefile.web'.
+     Trying implicit prerequisite 'RCS/Makefile.web'.
+     Trying pattern rule with stem 'Makefile.web'.
+     Trying implicit prerequisite 's.Makefile.web'.
+     Trying pattern rule with stem 'Makefile.web'.
+     Trying implicit prerequisite 'SCCS/s.Makefile.web'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.f'.
+   Looking for a rule with intermediate file 'Makefile.f'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.F'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.r'.
+    Trying pattern rule with stem 'Makefile.f'.
+    Trying implicit prerequisite 'Makefile.f,v'.
+    Trying pattern rule with stem 'Makefile.f'.
+    Trying implicit prerequisite 'RCS/Makefile.f,v'.
+    Trying pattern rule with stem 'Makefile.f'.
+    Trying implicit prerequisite 'RCS/Makefile.f'.
+    Trying pattern rule with stem 'Makefile.f'.
+    Trying implicit prerequisite 's.Makefile.f'.
+    Trying pattern rule with stem 'Makefile.f'.
+    Trying implicit prerequisite 'SCCS/s.Makefile.f'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.F'.
+    Looking for a rule with intermediate file 'Makefile.F'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.F'.
+     Trying implicit prerequisite 'Makefile.F,v'.
+     Trying pattern rule with stem 'Makefile.F'.
+     Trying implicit prerequisite 'RCS/Makefile.F,v'.
+     Trying pattern rule with stem 'Makefile.F'.
+     Trying implicit prerequisite 'RCS/Makefile.F'.
+     Trying pattern rule with stem 'Makefile.F'.
+     Trying implicit prerequisite 's.Makefile.F'.
+     Trying pattern rule with stem 'Makefile.F'.
+     Trying implicit prerequisite 'SCCS/s.Makefile.F'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.r'.
+    Looking for a rule with intermediate file 'Makefile.r'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile'.
+     Rejecting impossible implicit prerequisite 'Makefile.l'.
+     Trying pattern rule with stem 'Makefile.r'.
+     Trying implicit prerequisite 'Makefile.r,v'.
+     Trying pattern rule with stem 'Makefile.r'.
+     Trying implicit prerequisite 'RCS/Makefile.r,v'.
+     Trying pattern rule with stem 'Makefile.r'.
+     Trying implicit prerequisite 'RCS/Makefile.r'.
+     Trying pattern rule with stem 'Makefile.r'.
+     Trying implicit prerequisite 's.Makefile.r'.
+     Trying pattern rule with stem 'Makefile.r'.
+     Trying implicit prerequisite 'SCCS/s.Makefile.r'.
+   Trying pattern rule with stem 'Makefile'.
+   Rejecting impossible implicit prerequisite 'Makefile.F'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.m'.
+   Looking for a rule with intermediate file 'Makefile.m'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.ym'.
+    Trying pattern rule with stem 'Makefile.m'.
+    Trying implicit prerequisite 'Makefile.m,v'.
+    Trying pattern rule with stem 'Makefile.m'.
+    Trying implicit prerequisite 'RCS/Makefile.m,v'.
+    Trying pattern rule with stem 'Makefile.m'.
+    Trying implicit prerequisite 'RCS/Makefile.m'.
+    Trying pattern rule with stem 'Makefile.m'.
+    Trying implicit prerequisite 's.Makefile.m'.
+    Trying pattern rule with stem 'Makefile.m'.
+    Trying implicit prerequisite 'SCCS/s.Makefile.m'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.ym'.
+    Looking for a rule with intermediate file 'Makefile.ym'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.ym'.
+     Trying implicit prerequisite 'Makefile.ym,v'.
+     Trying pattern rule with stem 'Makefile.ym'.
+     Trying implicit prerequisite 'RCS/Makefile.ym,v'.
+     Trying pattern rule with stem 'Makefile.ym'.
+     Trying implicit prerequisite 'RCS/Makefile.ym'.
+     Trying pattern rule with stem 'Makefile.ym'.
+     Trying implicit prerequisite 's.Makefile.ym'.
+     Trying pattern rule with stem 'Makefile.ym'.
+     Trying implicit prerequisite 'SCCS/s.Makefile.ym'.
+   Trying pattern rule with stem 'Makefile'.
+   Rejecting impossible implicit prerequisite 'Makefile.r'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.s'.
+   Looking for a rule with intermediate file 'Makefile.s'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.S'.
+    Trying pattern rule with stem 'Makefile.s'.
+    Trying implicit prerequisite 'Makefile.s,v'.
+    Trying pattern rule with stem 'Makefile.s'.
+    Trying implicit prerequisite 'RCS/Makefile.s,v'.
+    Trying pattern rule with stem 'Makefile.s'.
+    Trying implicit prerequisite 'RCS/Makefile.s'.
+    Trying pattern rule with stem 'Makefile.s'.
+    Trying implicit prerequisite 's.Makefile.s'.
+    Trying pattern rule with stem 'Makefile.s'.
+    Trying implicit prerequisite 'SCCS/s.Makefile.s'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.S'.
+    Looking for a rule with intermediate file 'Makefile.S'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.S'.
+     Trying implicit prerequisite 'Makefile.S,v'.
+     Trying pattern rule with stem 'Makefile.S'.
+     Trying implicit prerequisite 'RCS/Makefile.S,v'.
+     Trying pattern rule with stem 'Makefile.S'.
+     Trying implicit prerequisite 'RCS/Makefile.S'.
+     Trying pattern rule with stem 'Makefile.S'.
+     Trying implicit prerequisite 's.Makefile.S'.
+     Trying pattern rule with stem 'Makefile.S'.
+     Trying implicit prerequisite 'SCCS/s.Makefile.S'.
+   Trying pattern rule with stem 'Makefile'.
+   Rejecting impossible implicit prerequisite 'Makefile.S'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.mod'.
+   Looking for a rule with intermediate file 'Makefile.mod'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile.mod'.
+    Trying implicit prerequisite 'Makefile.mod,v'.
+    Trying pattern rule with stem 'Makefile.mod'.
+    Trying implicit prerequisite 'RCS/Makefile.mod,v'.
+    Trying pattern rule with stem 'Makefile.mod'.
+    Trying implicit prerequisite 'RCS/Makefile.mod'.
+    Trying pattern rule with stem 'Makefile.mod'.
+    Trying implicit prerequisite 's.Makefile.mod'.
+    Trying pattern rule with stem 'Makefile.mod'.
+    Trying implicit prerequisite 'SCCS/s.Makefile.mod'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.c'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.cc'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.C'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.cpp'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.p'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.f'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.F'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.m'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.r'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.s'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.S'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.mod'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.sh'.
+  Looking for a rule with intermediate file 'Makefile.sh'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem 'Makefile.sh'.
+   Trying implicit prerequisite 'Makefile.sh,v'.
+   Trying pattern rule with stem 'Makefile.sh'.
+   Trying implicit prerequisite 'RCS/Makefile.sh,v'.
+   Trying pattern rule with stem 'Makefile.sh'.
+   Trying implicit prerequisite 'RCS/Makefile.sh'.
+   Trying pattern rule with stem 'Makefile.sh'.
+   Trying implicit prerequisite 's.Makefile.sh'.
+   Trying pattern rule with stem 'Makefile.sh'.
+   Trying implicit prerequisite 'SCCS/s.Makefile.sh'.
+  No implicit rule found for 'Makefile'.
+  Finished prerequisites of target file 'Makefile'.
+ No need to remake target 'Makefile'.
+Updating goal targets....
+Considering target file 'clean'.
+ File 'clean' does not exist.
+ Looking for an implicit rule for 'clean'.
+ Trying pattern rule with stem 'clean'.
+ Trying implicit prerequisite 'clean.o'.
+ Trying pattern rule with stem 'clean'.
+ Trying implicit prerequisite 'clean.c'.
+ Trying pattern rule with stem 'clean'.
+ Trying implicit prerequisite 'clean.cc'.
+ Trying pattern rule with stem 'clean'.
+ Trying implicit prerequisite 'clean.C'.
+ Trying pattern rule with stem 'clean'.
+ Trying implicit prerequisite 'clean.cpp'.
+ Trying pattern rule with stem 'clean'.
+ Trying implicit prerequisite 'clean.p'.
+ Trying pattern rule with stem 'clean'.
+ Trying implicit prerequisite 'clean.f'.
+ Trying pattern rule with stem 'clean'.
+ Trying implicit prerequisite 'clean.F'.
+ Trying pattern rule with stem 'clean'.
+ Trying implicit prerequisite 'clean.m'.
+ Trying pattern rule with stem 'clean'.
+ Trying implicit prerequisite 'clean.r'.
+ Trying pattern rule with stem 'clean'.
+ Trying implicit prerequisite 'clean.s'.
+ Trying pattern rule with stem 'clean'.
+ Trying implicit prerequisite 'clean.S'.
+ Trying pattern rule with stem 'clean'.
+ Trying implicit prerequisite 'clean.mod'.
+ Trying pattern rule with stem 'clean'.
+ Trying implicit prerequisite 'clean.sh'.
+ Trying pattern rule with stem 'clean'.
+ Trying implicit prerequisite 'clean,v'.
+ Trying pattern rule with stem 'clean'.
+ Trying implicit prerequisite 'RCS/clean,v'.
+ Trying pattern rule with stem 'clean'.
+ Trying implicit prerequisite 'RCS/clean'.
+ Trying pattern rule with stem 'clean'.
+ Trying implicit prerequisite 's.clean'.
+ Trying pattern rule with stem 'clean'.
+ Trying implicit prerequisite 'SCCS/s.clean'.
+ Trying pattern rule with stem 'clean'.
+ Trying implicit prerequisite 'clean.o'.
+ Looking for a rule with intermediate file 'clean.o'.
+  Avoiding implicit rule recursion.
+  Trying pattern rule with stem 'clean'.
+  Trying implicit prerequisite 'clean.c'.
+  Trying pattern rule with stem 'clean'.
+  Trying implicit prerequisite 'clean.cc'.
+  Trying pattern rule with stem 'clean'.
+  Trying implicit prerequisite 'clean.C'.
+  Trying pattern rule with stem 'clean'.
+  Trying implicit prerequisite 'clean.cpp'.
+  Trying pattern rule with stem 'clean'.
+  Trying implicit prerequisite 'clean.p'.
+  Trying pattern rule with stem 'clean'.
+  Trying implicit prerequisite 'clean.f'.
+  Trying pattern rule with stem 'clean'.
+  Trying implicit prerequisite 'clean.F'.
+  Trying pattern rule with stem 'clean'.
+  Trying implicit prerequisite 'clean.m'.
+  Trying pattern rule with stem 'clean'.
+  Trying implicit prerequisite 'clean.r'.
+  Trying pattern rule with stem 'clean'.
+  Trying implicit prerequisite 'clean.s'.
+  Trying pattern rule with stem 'clean'.
+  Trying implicit prerequisite 'clean.S'.
+  Trying pattern rule with stem 'clean'.
+  Trying implicit prerequisite 'clean.mod'.
+  Trying pattern rule with stem 'clean.o'.
+  Trying implicit prerequisite 'clean.o,v'.
+  Trying pattern rule with stem 'clean.o'.
+  Trying implicit prerequisite 'RCS/clean.o,v'.
+  Trying pattern rule with stem 'clean.o'.
+  Trying implicit prerequisite 'RCS/clean.o'.
+  Trying pattern rule with stem 'clean.o'.
+  Trying implicit prerequisite 's.clean.o'.
+  Trying pattern rule with stem 'clean.o'.
+  Trying implicit prerequisite 'SCCS/s.clean.o'.
+  Trying pattern rule with stem 'clean'.
+  Trying implicit prerequisite 'clean.c'.
+  Looking for a rule with intermediate file 'clean.c'.
+   Avoiding implicit rule recursion.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem 'clean'.
+   Trying implicit prerequisite 'clean.y'.
+   Trying pattern rule with stem 'clean'.
+   Trying implicit prerequisite 'clean.l'.
+   Trying pattern rule with stem 'clean'.
+   Trying implicit prerequisite 'clean.w'.
+   Trying pattern rule with stem 'clean'.
+   Trying implicit prerequisite 'clean.w'.
+   Trying pattern rule with stem 'clean.c'.
+   Trying implicit prerequisite 'clean.c,v'.
+   Trying pattern rule with stem 'clean.c'.
+   Trying implicit prerequisite 'RCS/clean.c,v'.
+   Trying pattern rule with stem 'clean.c'.
+   Trying implicit prerequisite 'RCS/clean.c'.
+   Trying pattern rule with stem 'clean.c'.
+   Trying implicit prerequisite 's.clean.c'.
+   Trying pattern rule with stem 'clean.c'.
+   Trying implicit prerequisite 'SCCS/s.clean.c'.
+   Trying pattern rule with stem 'clean'.
+   Trying implicit prerequisite 'clean.y'.
+   Looking for a rule with intermediate file 'clean.y'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'clean.y'.
+    Trying implicit prerequisite 'clean.y,v'.
+    Trying pattern rule with stem 'clean.y'.
+    Trying implicit prerequisite 'RCS/clean.y,v'.
+    Trying pattern rule with stem 'clean.y'.
+    Trying implicit prerequisite 'RCS/clean.y'.
+    Trying pattern rule with stem 'clean.y'.
+    Trying implicit prerequisite 's.clean.y'.
+    Trying pattern rule with stem 'clean.y'.
+    Trying implicit prerequisite 'SCCS/s.clean.y'.
+   Trying pattern rule with stem 'clean'.
+   Trying implicit prerequisite 'clean.l'.
+   Looking for a rule with intermediate file 'clean.l'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'clean.l'.
+    Trying implicit prerequisite 'clean.l,v'.
+    Trying pattern rule with stem 'clean.l'.
+    Trying implicit prerequisite 'RCS/clean.l,v'.
+    Trying pattern rule with stem 'clean.l'.
+    Trying implicit prerequisite 'RCS/clean.l'.
+    Trying pattern rule with stem 'clean.l'.
+    Trying implicit prerequisite 's.clean.l'.
+    Trying pattern rule with stem 'clean.l'.
+    Trying implicit prerequisite 'SCCS/s.clean.l'.
+   Trying pattern rule with stem 'clean'.
+   Trying implicit prerequisite 'clean.w'.
+   Looking for a rule with intermediate file 'clean.w'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'clean.w'.
+    Trying implicit prerequisite 'clean.w,v'.
+    Trying pattern rule with stem 'clean.w'.
+    Trying implicit prerequisite 'RCS/clean.w,v'.
+    Trying pattern rule with stem 'clean.w'.
+    Trying implicit prerequisite 'RCS/clean.w'.
+    Trying pattern rule with stem 'clean.w'.
+    Trying implicit prerequisite 's.clean.w'.
+    Trying pattern rule with stem 'clean.w'.
+    Trying implicit prerequisite 'SCCS/s.clean.w'.
+   Trying pattern rule with stem 'clean'.
+   Rejecting impossible implicit prerequisite 'clean.w'.
+  Trying pattern rule with stem 'clean'.
+  Trying implicit prerequisite 'clean.cc'.
+  Looking for a rule with intermediate file 'clean.cc'.
+   Avoiding implicit rule recursion.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem 'clean.cc'.
+   Trying implicit prerequisite 'clean.cc,v'.
+   Trying pattern rule with stem 'clean.cc'.
+   Trying implicit prerequisite 'RCS/clean.cc,v'.
+   Trying pattern rule with stem 'clean.cc'.
+   Trying implicit prerequisite 'RCS/clean.cc'.
+   Trying pattern rule with stem 'clean.cc'.
+   Trying implicit prerequisite 's.clean.cc'.
+   Trying pattern rule with stem 'clean.cc'.
+   Trying implicit prerequisite 'SCCS/s.clean.cc'.
+  Trying pattern rule with stem 'clean'.
+  Trying implicit prerequisite 'clean.C'.
+  Looking for a rule with intermediate file 'clean.C'.
+   Avoiding implicit rule recursion.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem 'clean.C'.
+   Trying implicit prerequisite 'clean.C,v'.
+   Trying pattern rule with stem 'clean.C'.
+   Trying implicit prerequisite 'RCS/clean.C,v'.
+   Trying pattern rule with stem 'clean.C'.
+   Trying implicit prerequisite 'RCS/clean.C'.
+   Trying pattern rule with stem 'clean.C'.
+   Trying implicit prerequisite 's.clean.C'.
+   Trying pattern rule with stem 'clean.C'.
+   Trying implicit prerequisite 'SCCS/s.clean.C'.
+  Trying pattern rule with stem 'clean'.
+  Trying implicit prerequisite 'clean.cpp'.
+  Looking for a rule with intermediate file 'clean.cpp'.
+   Avoiding implicit rule recursion.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem 'clean.cpp'.
+   Trying implicit prerequisite 'clean.cpp,v'.
+   Trying pattern rule with stem 'clean.cpp'.
+   Trying implicit prerequisite 'RCS/clean.cpp,v'.
+   Trying pattern rule with stem 'clean.cpp'.
+   Trying implicit prerequisite 'RCS/clean.cpp'.
+   Trying pattern rule with stem 'clean.cpp'.
+   Trying implicit prerequisite 's.clean.cpp'.
+   Trying pattern rule with stem 'clean.cpp'.
+   Trying implicit prerequisite 'SCCS/s.clean.cpp'.
+  Trying pattern rule with stem 'clean'.
+  Trying implicit prerequisite 'clean.p'.
+  Looking for a rule with intermediate file 'clean.p'.
+   Avoiding implicit rule recursion.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem 'clean'.
+   Trying implicit prerequisite 'clean.web'.
+   Trying pattern rule with stem 'clean.p'.
+   Trying implicit prerequisite 'clean.p,v'.
+   Trying pattern rule with stem 'clean.p'.
+   Trying implicit prerequisite 'RCS/clean.p,v'.
+   Trying pattern rule with stem 'clean.p'.
+   Trying implicit prerequisite 'RCS/clean.p'.
+   Trying pattern rule with stem 'clean.p'.
+   Trying implicit prerequisite 's.clean.p'.
+   Trying pattern rule with stem 'clean.p'.
+   Trying implicit prerequisite 'SCCS/s.clean.p'.
+   Trying pattern rule with stem 'clean'.
+   Trying implicit prerequisite 'clean.web'.
+   Looking for a rule with intermediate file 'clean.web'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'clean.web'.
+    Trying implicit prerequisite 'clean.web,v'.
+    Trying pattern rule with stem 'clean.web'.
+    Trying implicit prerequisite 'RCS/clean.web,v'.
+    Trying pattern rule with stem 'clean.web'.
+    Trying implicit prerequisite 'RCS/clean.web'.
+    Trying pattern rule with stem 'clean.web'.
+    Trying implicit prerequisite 's.clean.web'.
+    Trying pattern rule with stem 'clean.web'.
+    Trying implicit prerequisite 'SCCS/s.clean.web'.
+  Trying pattern rule with stem 'clean'.
+  Trying implicit prerequisite 'clean.f'.
+  Looking for a rule with intermediate file 'clean.f'.
+   Avoiding implicit rule recursion.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem 'clean'.
+   Trying implicit prerequisite 'clean.F'.
+   Trying pattern rule with stem 'clean'.
+   Trying implicit prerequisite 'clean.r'.
+   Trying pattern rule with stem 'clean.f'.
+   Trying implicit prerequisite 'clean.f,v'.
+   Trying pattern rule with stem 'clean.f'.
+   Trying implicit prerequisite 'RCS/clean.f,v'.
+   Trying pattern rule with stem 'clean.f'.
+   Trying implicit prerequisite 'RCS/clean.f'.
+   Trying pattern rule with stem 'clean.f'.
+   Trying implicit prerequisite 's.clean.f'.
+   Trying pattern rule with stem 'clean.f'.
+   Trying implicit prerequisite 'SCCS/s.clean.f'.
+   Trying pattern rule with stem 'clean'.
+   Trying implicit prerequisite 'clean.F'.
+   Looking for a rule with intermediate file 'clean.F'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'clean.F'.
+    Trying implicit prerequisite 'clean.F,v'.
+    Trying pattern rule with stem 'clean.F'.
+    Trying implicit prerequisite 'RCS/clean.F,v'.
+    Trying pattern rule with stem 'clean.F'.
+    Trying implicit prerequisite 'RCS/clean.F'.
+    Trying pattern rule with stem 'clean.F'.
+    Trying implicit prerequisite 's.clean.F'.
+    Trying pattern rule with stem 'clean.F'.
+    Trying implicit prerequisite 'SCCS/s.clean.F'.
+   Trying pattern rule with stem 'clean'.
+   Trying implicit prerequisite 'clean.r'.
+   Looking for a rule with intermediate file 'clean.r'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'clean'.
+    Rejecting impossible implicit prerequisite 'clean.l'.
+    Trying pattern rule with stem 'clean.r'.
+    Trying implicit prerequisite 'clean.r,v'.
+    Trying pattern rule with stem 'clean.r'.
+    Trying implicit prerequisite 'RCS/clean.r,v'.
+    Trying pattern rule with stem 'clean.r'.
+    Trying implicit prerequisite 'RCS/clean.r'.
+    Trying pattern rule with stem 'clean.r'.
+    Trying implicit prerequisite 's.clean.r'.
+    Trying pattern rule with stem 'clean.r'.
+    Trying implicit prerequisite 'SCCS/s.clean.r'.
+  Trying pattern rule with stem 'clean'.
+  Rejecting impossible implicit prerequisite 'clean.F'.
+  Trying pattern rule with stem 'clean'.
+  Trying implicit prerequisite 'clean.m'.
+  Looking for a rule with intermediate file 'clean.m'.
+   Avoiding implicit rule recursion.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem 'clean'.
+   Trying implicit prerequisite 'clean.ym'.
+   Trying pattern rule with stem 'clean.m'.
+   Trying implicit prerequisite 'clean.m,v'.
+   Trying pattern rule with stem 'clean.m'.
+   Trying implicit prerequisite 'RCS/clean.m,v'.
+   Trying pattern rule with stem 'clean.m'.
+   Trying implicit prerequisite 'RCS/clean.m'.
+   Trying pattern rule with stem 'clean.m'.
+   Trying implicit prerequisite 's.clean.m'.
+   Trying pattern rule with stem 'clean.m'.
+   Trying implicit prerequisite 'SCCS/s.clean.m'.
+   Trying pattern rule with stem 'clean'.
+   Trying implicit prerequisite 'clean.ym'.
+   Looking for a rule with intermediate file 'clean.ym'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'clean.ym'.
+    Trying implicit prerequisite 'clean.ym,v'.
+    Trying pattern rule with stem 'clean.ym'.
+    Trying implicit prerequisite 'RCS/clean.ym,v'.
+    Trying pattern rule with stem 'clean.ym'.
+    Trying implicit prerequisite 'RCS/clean.ym'.
+    Trying pattern rule with stem 'clean.ym'.
+    Trying implicit prerequisite 's.clean.ym'.
+    Trying pattern rule with stem 'clean.ym'.
+    Trying implicit prerequisite 'SCCS/s.clean.ym'.
+  Trying pattern rule with stem 'clean'.
+  Rejecting impossible implicit prerequisite 'clean.r'.
+  Trying pattern rule with stem 'clean'.
+  Trying implicit prerequisite 'clean.s'.
+  Looking for a rule with intermediate file 'clean.s'.
+   Avoiding implicit rule recursion.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem 'clean'.
+   Trying implicit prerequisite 'clean.S'.
+   Trying pattern rule with stem 'clean.s'.
+   Trying implicit prerequisite 'clean.s,v'.
+   Trying pattern rule with stem 'clean.s'.
+   Trying implicit prerequisite 'RCS/clean.s,v'.
+   Trying pattern rule with stem 'clean.s'.
+   Trying implicit prerequisite 'RCS/clean.s'.
+   Trying pattern rule with stem 'clean.s'.
+   Trying implicit prerequisite 's.clean.s'.
+   Trying pattern rule with stem 'clean.s'.
+   Trying implicit prerequisite 'SCCS/s.clean.s'.
+   Trying pattern rule with stem 'clean'.
+   Trying implicit prerequisite 'clean.S'.
+   Looking for a rule with intermediate file 'clean.S'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'clean.S'.
+    Trying implicit prerequisite 'clean.S,v'.
+    Trying pattern rule with stem 'clean.S'.
+    Trying implicit prerequisite 'RCS/clean.S,v'.
+    Trying pattern rule with stem 'clean.S'.
+    Trying implicit prerequisite 'RCS/clean.S'.
+    Trying pattern rule with stem 'clean.S'.
+    Trying implicit prerequisite 's.clean.S'.
+    Trying pattern rule with stem 'clean.S'.
+    Trying implicit prerequisite 'SCCS/s.clean.S'.
+  Trying pattern rule with stem 'clean'.
+  Rejecting impossible implicit prerequisite 'clean.S'.
+  Trying pattern rule with stem 'clean'.
+  Trying implicit prerequisite 'clean.mod'.
+  Looking for a rule with intermediate file 'clean.mod'.
+   Avoiding implicit rule recursion.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem 'clean.mod'.
+   Trying implicit prerequisite 'clean.mod,v'.
+   Trying pattern rule with stem 'clean.mod'.
+   Trying implicit prerequisite 'RCS/clean.mod,v'.
+   Trying pattern rule with stem 'clean.mod'.
+   Trying implicit prerequisite 'RCS/clean.mod'.
+   Trying pattern rule with stem 'clean.mod'.
+   Trying implicit prerequisite 's.clean.mod'.
+   Trying pattern rule with stem 'clean.mod'.
+   Trying implicit prerequisite 'SCCS/s.clean.mod'.
+ Trying pattern rule with stem 'clean'.
+ Rejecting impossible implicit prerequisite 'clean.c'.
+ Trying pattern rule with stem 'clean'.
+ Rejecting impossible implicit prerequisite 'clean.cc'.
+ Trying pattern rule with stem 'clean'.
+ Rejecting impossible implicit prerequisite 'clean.C'.
+ Trying pattern rule with stem 'clean'.
+ Rejecting impossible implicit prerequisite 'clean.cpp'.
+ Trying pattern rule with stem 'clean'.
+ Rejecting impossible implicit prerequisite 'clean.p'.
+ Trying pattern rule with stem 'clean'.
+ Rejecting impossible implicit prerequisite 'clean.f'.
+ Trying pattern rule with stem 'clean'.
+ Rejecting impossible implicit prerequisite 'clean.F'.
+ Trying pattern rule with stem 'clean'.
+ Rejecting impossible implicit prerequisite 'clean.m'.
+ Trying pattern rule with stem 'clean'.
+ Rejecting impossible implicit prerequisite 'clean.r'.
+ Trying pattern rule with stem 'clean'.
+ Rejecting impossible implicit prerequisite 'clean.s'.
+ Trying pattern rule with stem 'clean'.
+ Rejecting impossible implicit prerequisite 'clean.S'.
+ Trying pattern rule with stem 'clean'.
+ Rejecting impossible implicit prerequisite 'clean.mod'.
+ Trying pattern rule with stem 'clean'.
+ Trying implicit prerequisite 'clean.sh'.
+ Looking for a rule with intermediate file 'clean.sh'.
+  Avoiding implicit rule recursion.
+  Trying pattern rule with stem 'clean.sh'.
+  Trying implicit prerequisite 'clean.sh,v'.
+  Trying pattern rule with stem 'clean.sh'.
+  Trying implicit prerequisite 'RCS/clean.sh,v'.
+  Trying pattern rule with stem 'clean.sh'.
+  Trying implicit prerequisite 'RCS/clean.sh'.
+  Trying pattern rule with stem 'clean.sh'.
+  Trying implicit prerequisite 's.clean.sh'.
+  Trying pattern rule with stem 'clean.sh'.
+  Trying implicit prerequisite 'SCCS/s.clean.sh'.
+ No implicit rule found for 'clean'.
+ Finished prerequisites of target file 'clean'.
+Must remake target 'clean'.
+Successfully remade target file 'clean'.
+make: Nothing to be done for 'clean'.

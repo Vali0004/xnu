@@ -185,7 +185,7 @@ export CXXWARNFLAGS ?= $(CXXWARNFLAGS_STD)
 # Setup for parallel sub-makes based on 2 times number of logical CPUs
 #
 ifndef MAKEJOBS
-export MAKEJOBS = --jobs=$(shell expr `/usr/sbin//sysctl -n hw.logicalcpu` \* 2)
+export MAKEJOBS = --jobs=$(shell expr `nproc` \* 2)
 endif
 
 #
